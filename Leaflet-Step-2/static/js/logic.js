@@ -100,7 +100,7 @@ d3.json(hoururl,function(responsehour) {
 
                 var legend = L.control({ position: 'bottomleft' });
 
-                legend.onAdd = function (map) {
+                legend.onAdd = function () {
                     var div = L.DomUtil.create('div', 'info legend')
                     var grades = [0, 1, 2, 3, 4, 5];
 
